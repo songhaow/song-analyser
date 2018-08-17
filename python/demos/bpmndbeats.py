@@ -122,7 +122,7 @@ fh1.write('{ "The Music of": ')
 fh1.write(f)
 fh1.write(",")
 fh1.write("\n")
-fh1.write(("'bpm': %i") %bpm)
+fh1.write(('"bpm": %i') %bpm)
 fh1.write(",")
 fh1.write("\n")
 
